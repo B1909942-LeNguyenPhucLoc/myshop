@@ -1,4 +1,5 @@
-import '../../models/product.dart ';
+import 'package:myshop/models/product.dart';
+
 
 class ProductsManager {
   final List<Product> _items = [

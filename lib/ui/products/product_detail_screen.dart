@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../models/product.dart ';
+import 'package:myshop/models/product.dart';
 
 class ProductDetailScreen extends StatelessWidget {
   const ProductDetailScreen(
@@ -36,7 +36,7 @@ class ProductDetailScreen extends StatelessWidget {
               height: 10,
             ),
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
+              padding: const EdgeInsets.symmetric(horizontal:10),
               width: double.infinity,
               child: Text(
                 product.description,
